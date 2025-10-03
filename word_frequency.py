@@ -41,12 +41,12 @@ frequencies = []
 
 for word in words_list:
     if word in unique_words:
-    index = unique_words.index(word)
-    frequencies[index] += 1
+        index = unique_words.index(word)
+        frequencies[index] += 1
 else:
     unique_words.append(word)
     frequencies.append(1)
     
 print("\nWord frequencies:")
 for i in range(len(unique_words)):
-    print(f"{unique_words[i]}: {frequencies[i]}")
+        print(f"{unique_words[i]}: {frequencies[i]}")
