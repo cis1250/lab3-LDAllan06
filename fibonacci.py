@@ -13,11 +13,13 @@ def fibonacci_sequence():
       for _ in range(n):
         print(a, end=" ")
         a, b = b, a + b
+        print()
       break
 
     except ValueError:
       print("Invalid integer, please enter a positive integer")
 
+fibonacci_sequence()
 # Fibonacci Sequence Exercise
 # TODO: (Read detailed instructions in the Readme file)
 # Prompt the user for the number of terms.
