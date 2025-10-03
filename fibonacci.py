@@ -2,7 +2,7 @@
 def fibonacci_sequence():
   while True:
     try:
-      n = int(input("Enter number of terms of the fibonacci sequence"))
+      n = int(input("Enter number of terms of the fibonacci sequence: "))
 
       if n <= 0:
         print("Enter a positive integer")
