@@ -4,20 +4,20 @@ def fibonacci_sequence():
     try:
       n = int(input("Enter number of terms of the fibonacci sequence"))
 
-  if n <= 0:
-  print("Enter a positive integer")
-  continue
+      if n <= 0:
+      print("Enter a positive integer")
+      continue
 
-  a, b =  0, 1
-  print("\nfibonacci_sequence:")
-  for _ in range(n):
-  print(a, end=" ")
-  a, b = b, a + b
-  Print()
-  break
+      a, b =  0, 1
+      print("\nfibonacci_sequence:")
+      for _ in range(n):
+      print(a, end=" ")
+      a, b = b, a + b
+      Print()
+      break
 
-except ValueError:
-print("Invalid integer, please enter a positive integer")
+    except ValueError:
+      print("Invalid integer, please enter a positive integer")
 
 fibonacci_sequence()
 # Fibonacci Sequence Exercise
